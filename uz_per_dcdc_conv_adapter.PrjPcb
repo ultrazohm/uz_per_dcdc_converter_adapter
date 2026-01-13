@@ -140,12 +140,13 @@ UniqueId=8f02f197-d7d6-41ea-bf8e-34eb45e697dc
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
-Variation1=Designator=R10_RX0|UniqueId=\0DJWTBCLR\AFQBDZKD|Kind=1|AlternatePart=
-Variation2=Designator=R10_RX1|UniqueId=\1DJWTBCLR\AFQBDZKD|Kind=1|AlternatePart=
-Variation3=Designator=R10_RX2|UniqueId=\2DJWTBCLR\AFQBDZKD|Kind=1|AlternatePart=
-Variation4=Designator=R10_RX3|UniqueId=\3DJWTBCLR\AFQBDZKD|Kind=1|AlternatePart=
-Variation5=Designator=C10|UniqueId=\FAHOXKLJ\NWJMZSAB|Kind=1|AlternatePart=
+VariationCount=6
+Variation1=Designator=R10_RX0|UniqueId=\0DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
+Variation2=Designator=R10_RX1|UniqueId=\1DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
+Variation3=Designator=R10_RX2|UniqueId=\2DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
+Variation4=Designator=R10_RX3|UniqueId=\3DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
+Variation5=Designator=C10|UniqueId=\FAHOXKLJ\BGYLHRCG|Kind=1|AlternatePart=
+Variation6=Designator=R10_RX4|UniqueId=\4DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
