@@ -3,7 +3,7 @@ Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
-ChannelDesignatorFormatString=$Component_$RoomName
+ChannelDesignatorFormatString=$Component$ChannelAlpha
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
@@ -135,18 +135,36 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=LEM_interface.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=URTEQAWC
+
 [ProjectVariant1]
 UniqueId=8f02f197-d7d6-41ea-bf8e-34eb45e697dc
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
+VariationCount=7
 Variation1=Designator=R10_RX0|UniqueId=\0DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
 Variation2=Designator=R10_RX1|UniqueId=\1DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
 Variation3=Designator=R10_RX2|UniqueId=\2DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
 Variation4=Designator=R10_RX3|UniqueId=\3DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
 Variation5=Designator=C10|UniqueId=\FAHOXKLJ\BGYLHRCG|Kind=1|AlternatePart=
 Variation6=Designator=R10_RX4|UniqueId=\4DJWTBCLR\TFFWBZNY|Kind=1|AlternatePart=
+Variation7=Designator=R5|UniqueId=\FAHOXKLJ\OGSTEMZX|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -158,24 +176,24 @@ DocumentPath=Project Outputs for uz_per_dcdc_converter_adapter\Design Rule Check
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=ZC
+Name=ProjectRevision
+Value=Rev01
 
 [Parameter2]
-Name=AuthorParam
-Value=ZC
+Name=ProjectNameCustom
+Value=UZ_PER_dcdc_converter_adapter
 
 [Parameter3]
 Name=FinDate
 Value=01/2026
 
 [Parameter4]
-Name=ProjectNameCustom
-Value=UZ_PER_dcdc_converter_adapter
+Name=AuthorParam
+Value=ZC
 
 [Parameter5]
-Name=ProjectRevision
-Value=Rev01
+Name=Author
+Value=ZC
 
 [Configuration1]
 Name=Sources
@@ -297,6 +315,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -308,6 +336,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -668,6 +706,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
