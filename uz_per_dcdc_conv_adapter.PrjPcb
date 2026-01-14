@@ -168,10 +168,14 @@ Variation7=Designator=R5|UniqueId=\FAHOXKLJ\OGSTEMZX|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for uz_per_dcdc_conv_adapter\Design Rule Check - uz_per_dcdc_converter_adapter.html
+DocumentPath=
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for uz_per_dcdc_conv_adapter\Design Rule Check - uz_per_dcdc_converter_adapter.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for uz_per_dcdc_converter_adapter\Design Rule Check - uz_per_dcdc_converter_adapter.html
 DItemRevisionGUID=
 
